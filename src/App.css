@@ -1,0 +1,120 @@
+* {
+  /* define valores globais */
+  margin: 0%;
+  padding: 0%;
+  font-family: "Inter";
+}
+
+.areaImagens {
+  /* cria a area das imagens */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ad3333;
+  width: 50vw;
+  height: 100vh;
+  flex-direction: column;
+}
+
+#nomeEscolaCadastro {
+  /* titulo das paginas de cadastro e home */
+  color: white;
+}
+
+.corpo {
+  /*usado como o body*/
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+}
+
+.areaTexto {
+  /*area dos textos nas telas de cadastro e login*/
+  background-color: #ffe4e1;
+  width: 50vw;
+}
+
+h1 {
+  /*estiliza os subtitulos*/
+  font-weight: bolder;
+  justify-content: center;
+  font-size: xxx-large;
+}
+
+.areaDeLogin{
+  /* estiliza a area de login */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  flex-direction: column;
+}
+
+input{
+  /* muda as caixas de texto */
+  height: 6%;
+  width: 70%;
+  border-radius: 25px;
+  border: none;
+}
+
+#botaoLogin {
+  /* estiliza o botao de login */
+  height: 6%;
+  width: 70%;
+  border-radius: 25px;
+  background-color:  #FF3E3E;
+  color: white;
+  font-size: xx-large;
+  margin-top: 3%;
+}
+
+
+
+.titulosInput{
+  /* estiliza os labels em cima dos inputs */
+  margin-top: 7vh;
+  display: flex;
+  justify-content: start;
+  font-size: x-large;
+}
+
+.criadorDeConta{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  margin: 2%;
+  width: 70%;
+}
+
+.lembreSe{
+  display: flex;
+  width: 1000%;
+}
+
+
+.checkbox{
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+#lembraCaixa{
+  display: flex;
+  align-items: center;
+  cursor: pointer; 
+  height: auto;
+  width: auto;
+  margin-right: 5%;
+}
+
+.checkSenha{
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+#senha{
+  margin-bottom: 2%;
+}

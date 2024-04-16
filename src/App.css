@@ -165,18 +165,16 @@ input {
 
 .AreaDeTexto {
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 90%;
+  justify-content: center;
   width: 50%;
   flex-direction: column;
 }
 
 .AreaTexto2{
   display: flex;
-  justify-content: center;
   align-items: center;
-  height: 90%;
+  justify-content: center;
   width: 50%;
   flex-direction: column;
 }
@@ -185,10 +183,21 @@ input {
   /* muda as caixas de texto */
   justify-content: center;
   height: 6%;
-  width: 70%;
+  width: 30%;
   border-radius: 25px;
   background-color: #ff3e3e;
   color: white;
   font-size: xx-large;
   margin-top: 3%;
+}
+
+.botaoCadastro{
+  display: flex;
+  justify-content: center;
+}
+
+.inputCadastro{
+  height: 13%;
+  border-radius: 15px;
+  margin-bottom: 2%;
 }

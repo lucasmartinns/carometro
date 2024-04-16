@@ -7,13 +7,13 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom';
 function App() {
   return (
     <>
-      <div>
+      <div> 
         <BrowserRouter>
           <Routes>
-            <Route path="/" element={<Login />} />
-            <Route path="/cadastro" element={<Cadastro />} />
-            <Route path="/home" element={<Home />} />
-            
+            <Route path="/cadastro" element={<Home />} />
+            <Route path="/" element={<Cadastro />} />
+            <Route path="/login" element={<Login />} /> 
+            {/* (localStorage.getItem('token')) */}
           </Routes>
         </BrowserRouter>
       </div>

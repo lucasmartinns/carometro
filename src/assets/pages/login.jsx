@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.jsx";
 import "../../App.css";
-import Cadastro  from "./cadastro.jsx";
+import Cadastro  from "./Cadastro.jsx";
 
 
 function Login() {
@@ -37,14 +37,14 @@ function Login() {
               <label htmlFor="checkbox" id='lembreSe'>Lembre-se de mim</label>
             </div>
 
-            <a href="">Esqueceu a senha ?</a> 
+            <a href="">Esqueceu a senha ?</a>
           </div>
           
           <button id="botaoLogin" className="botao">Entrar</button>
 
           <div className="criadorDeConta">
-              <p>Não Tem Uma Conta?</p>
-              <a href="Cadastro">Increver-se</a>
+              <p>Quer cadastrar um Aluno?</p>
+              <a href="Cadastro">Cadastre Aqui!</a>
           </div>
         </div>
       </div>

@@ -13,13 +13,16 @@ function Cadastro() {
         <div className="doisTextos">
           
           <div className="AreaDeTexto">
-            <label htmlFor="">Turma:</label>
+            <label htmlFor="">Nome Completo:</label>
             <input className="inputCadastro" type="text" name="turma" id="turma" />
 
-            <label htmlFor="">Nome Completo:</label>
+            <label htmlFor="">Telefone:</label>
             <input className="inputCadastro" type="text" name="nomeC" id="nomeC" />
 
             <label htmlFor="">Data de Nascimento:</label>
+            <input className="inputCadastro" type="text" name="data" id="data" />
+
+            <label htmlFor="">Turma:</label>
             <input className="inputCadastro" type="text" name="data" id="data" />
 
           </div>
@@ -28,14 +31,14 @@ function Cadastro() {
           </div>
 
           <div className="AreaTexto2">
-            <label htmlFor="">Email:</label>
+            <label htmlFor="">E-mail Institucional:</label>
             <input className="inputCadastro" type="email" name="email" id="email" />
 
-            <label htmlFor="">Senha:</label>
-            <input className="inputCadastro" type="password" name="senha" id="senha" />
+            <label htmlFor="">Usuário:</label>
+            <input className="inputCadastro" type="password" name="senha" id="senha" placeholder="Editado somente pelo Aluno." disabled/>
 
-            <label htmlFor="">Confirmar Senha:</label>
-            <input className="inputCadastro" type="password" name="cSenha" id="cSenha" />
+            <label htmlFor="">Senha:</label>
+            <input className="inputCadastro" type="password" name="cSenha" id="cSenha" placeholder="Editado somente pelo Aluno." disabled/>
           </div>
         </div>
 

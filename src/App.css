@@ -174,8 +174,8 @@ input {
 .AreaTexto2{
   display: flex;
   align-items: center;
-  justify-content: center;
   width: 50%;
+  margin-top: 4vh;
   flex-direction: column;
 }
 
@@ -255,8 +255,8 @@ input {
   justify-content: space-around;
   flex-direction: row;
 }
-
-/* .perfil {
+.AreaImagens2 img {
+  height: %;fil {
   height: 25%;
   width: 25%;
 } */

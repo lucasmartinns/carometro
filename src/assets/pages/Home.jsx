@@ -9,7 +9,7 @@ function Home() {
 
         <header className='NavBar'>
           <h3>Carômetro</h3>
-          <a className='aNavBar' href="Home">Home</a>
+          <a className='aNavBar' href="/">Home</a>
           <a className='aNavBar' href="Login">Login</a>
           <a className='aNavBar' href="Cadastro">Cadastro</a>
           <a className='aNavBar' href="Alunos">Alunos</a>
@@ -35,7 +35,7 @@ function Home() {
         </div>
 
         <div className='AreaBuscaTurmas'>
-
+          
         </div>
 
       </div>

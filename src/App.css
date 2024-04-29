@@ -1,3 +1,5 @@
+/* // LOGIN ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
 * {
   /* define valores globais */
   margin: 0%;
@@ -33,6 +35,7 @@
   /*area dos textos nas telas de cadastro e login*/
   background-color: #ffe4e1;
   width: 50vw;
+
 }
 
 h1 {
@@ -65,6 +68,7 @@ input {
   height: 6%;
   width: 70%;
   border-radius: 25px;
+  border: none;
   background-color: #ff3e3e;
   color: white;
   font-size: xx-large;
@@ -117,7 +121,7 @@ input {
   margin-bottom: 2%;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* // CADASTRO /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .corpo2 {
   /*usado como o body*/
@@ -204,7 +208,7 @@ input {
   margin-bottom: 2%;
 }
 
-/* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+/* // HOME /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .corpo3 {
   background-color: #FFE4E1;
@@ -217,19 +221,17 @@ input {
 .AreaBuscaTurmas {
   background-color: #FFE4E1;
   height: 60%;
-
-  
 }
 
 .NavBar {
   display: flex;
   background-color: #781b1b;
+  position: absolute;
   height: 4%;
   width: 100%;
   flex-direction: row;
   justify-content: space-around;
   color: white;
-
 }
 
 .aNavBar {
@@ -244,22 +246,20 @@ input {
   align-items: center;
   flex-direction: column;
   height: 40%;
-    /* margin-top: 2%; */
-
 }
 
 .AreaImagens2 {
   display: flex;
   width: 100%;
-  height: 30%;
+  height: 40%;
   justify-content: space-around;
   flex-direction: row;
 }
-.AreaImagens2 img {
-  height: %;fil {
-  height: 25%;
-  width: 25%;
-} */
+
+.perfil {
+  height: 12vh;
+  width: 6vw;
+}
 
 .nomeEscolaHome {
   color: white;
@@ -284,4 +284,130 @@ input {
 
 ::-webkit-input-placeholder {
   color: #323232;
+}
+
+/* // ALUNOS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.corpo6 {
+  background-color: #FFE4E1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextoAlunos {
+  background-color: #AD3333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40%;
+}
+
+.SeletorAlunos {
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #FFE4E1;
+  height: 60%;
+}
+
+.nomeAlunos {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+}
+
+/* // TURMAS ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.corpo4 {
+  background-color: #FFE4E1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextoTurmas {
+  background-color: #AD3333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40%;
+}
+
+.SeletorTurmas{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #FFE4E1;
+  height: 60%;
+}
+
+.nomeTurmas {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+}
+
+#turmas {
+  background-color: #781B1B;
+  height: 25vh;
+  width: 30vw;
+  border:none;
+  padding: 30px;
+  border-radius:25px;
+  color: white;
+  font-size: x-large;
+  font-style: italic;
+}
+
+/* // PERFIL ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.corpo5 {
+  background-color: #FFE4E1;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextoPerfil {
+  background-color: #AD3333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 40%;
+}
+
+.SeletorPerfil{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  background-color: #FFE4E1;
+  height: 60%;
+}
+
+.nomePerfil {
+  display: flex;
+  justify-content: center;
+  color: white;
+  flex-direction: row;
+}
+
+#perfil{
+  background-color: #781B1B;
+  height: 25vh;
+  width: 30vw;
+  border:none;
+  padding: 30px;
+  border-radius:25px;
+  color: white;
+  font-size: x-large;
+  font-style: italic;
 }

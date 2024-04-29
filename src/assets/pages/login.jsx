@@ -6,7 +6,19 @@ import Cadastro  from "./Cadastro.jsx";
 
 function Login() {
   return (
+
     <div className="corpo">
+
+        <header className='NavBar'>
+          <h3>Carômetro</h3>
+          <a className='aNavBar' href="Home">Home</a>
+          <a className='aNavBar' href="Login">Login</a>
+          <a className='aNavBar' href="Cadastro">Cadastro</a>
+          <a className='aNavBar' href="Alunos">Alunos</a>
+          <a className='aNavBar' href="Turmas">Turmas</a>
+          <a className='aNavBar' href="Perfil">Perfil</a>
+        </header>
+
       <div className="areaImagens">
         <img
           src="../../../components/img/senai.png"
@@ -15,6 +27,7 @@ function Login() {
         />
         <h3 id="nomeEscolaCadastro">SENAI Shunji Nishimura</h3>
         <img src="../../../components/img/chave.png" width={"450vw"} />
+
       </div>
 
       <div className="areaTexto">

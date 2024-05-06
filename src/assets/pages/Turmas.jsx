@@ -1,6 +1,7 @@
 import React from "react";
 import "../../App.jsx";
 import "../../App.css";
+import Cards from '../../../components/cards/cards.jsx';
 
 
 function Turmas() {
@@ -35,23 +36,39 @@ function Turmas() {
 
             </div>
 
+            <div className='CardAreaBusca'>
 
 
-            <div className='SeletorTurmas'>
-                <select name="turmas" id="turmas">
-                    <option value="">Selecione uma Turma...</option>
-                    <option value="IDEV1">IDEV - 1</option>
-                    <option value="IDEV2">IDEV - 2</option>
-                    <option value="IDEV3">IDEV - 3</option>
-                    <option value="IMEC1">IMEC - 1</option>
-                    <option value="IMEC2">IMEC - 2</option>
-                    <option value="IMEC3">IMEC - 3</option>
-                    <option value="IELE">IELE - 1</option>
-                    <option value="IELE">IELE - 2</option>
-                    <option value="IELE">IELE - 3</option>
-                </select>
-            </div>
-        
+            <Cards 
+              icone={"../../components/img/IDEV.png"}
+              titulo1={"Desenvolvimento de"}
+              sistemas={"Sistemas"}
+              informacao1={"IDEV1"}
+              informacao2={"IDEV2"}
+              link2={"/IDEV2"}  
+              informacao3={"IDEV3"}
+              />
+
+            <Cards 
+
+              icone={"../../components/img/IMEC.png"}
+              titulo1={"Mecânica"}
+              informacao1={"IMEC1"}
+              informacao2={"IMEC2"}
+              informacao3={"IMEC3"}
+              cor= '#781B1B' />
+
+
+            <Cards
+
+              icone={"../../components/img/IELEC.png"}
+              titulo1={"Eletroeletrônica"}
+              informacao1={"IELE1"}
+              informacao2={"IELE2"}
+              informacao3={"IELE3"}
+              />
+            
+          </div>
         </div>
     );
 }

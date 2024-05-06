@@ -1,5 +1,8 @@
 import React from 'react';
 import '../../App.jsx';
+import Cards from '../../../components/cards/cards.jsx';
+
+
 
 function Home() {
   return (
@@ -35,7 +38,40 @@ function Home() {
         </div>
 
         <div className='AreaBuscaTurmas'>
-          
+
+          <div className='CardAreaBusca'>
+
+
+            <Cards 
+              icone={"../../components/img/IDEV.png"}
+              titulo1={"Desenvolvimento de"}
+              sistemas={"Sistemas"}
+              informacao1={"IDEV1"}
+              informacao2={"IDEV2"}
+              link2={"/IDEV2"}  
+              informacao3={"IDEV3"}
+              />
+
+            <Cards 
+
+              icone={"../../components/img/IMEC.png"}
+              titulo1={"Mecânica"}
+              informacao1={"IMEC1"}
+              informacao2={"IMEC2"}
+              informacao3={"IMEC3"}
+              cor= '#781B1B' />
+
+
+            <Cards
+
+              icone={"../../components/img/IELEC.png"}
+              titulo1={"Eletroeletrônica"}
+              informacao1={"IELE1"}
+              informacao2={"IELE2"}
+              informacao3={"IELE3"}
+              />
+            
+          </div>
         </div>
 
       </div>

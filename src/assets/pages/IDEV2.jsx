@@ -2,8 +2,23 @@ import React from "react";
 import "../../App.jsx";
 import "../../App.css";
 
+import Aluno from "../../../components/img/ALEXANDRE.png"
 
 function IDEV2() {
+
+    const alunos = Array(32).fill().map((_, index) => ({
+        login: {
+          id: (index + 1).toString() // Gera IDs únicos para cada aluno (de 1 a 16)
+        },
+        foto: {
+          foto: Aluno // Define a foto do aluno
+        },
+        name: {
+          nome: `Giovani ME`, 
+          sobrenome: 'Beija'
+        }
+      }));
+
     return (
 
         <div className="corpo8">
@@ -28,6 +43,18 @@ function IDEV2() {
                 </div>
 
             </div>
+            <div className="listaAlunos"> {/* Container para a lista de alunos */}
+          {/* Mapeia os dados de cada aluno e renderiza um componente para cada um */}
+          {alunos.map((aluno) => (
+            <div key={aluno.login.id} className="aluno"> {/* Componente para cada aluno */}
+              {/* Define um link para a página individual do aluno */}
+                {/* Renderiza a foto do aluno */}
+                <img src={aluno.foto.foto} alt="Aluno" className="alunoFoto"/>
+                {/* Renderiza o nome completo do aluno */}
+                <p className='alunoNome'>{`${aluno.name.nome} ${aluno.name.sobrenome}`}</p>
+            </div>
+          ))}
+        </div>
 
 
 

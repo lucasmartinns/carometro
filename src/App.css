@@ -285,6 +285,13 @@ input {
   color: #323232;
 }
 
+
+.CardAreaBusca{
+  flex-direction: row;
+  display: flex;
+  margin: 25px;
+  justify-content: space-around;
+}
 /* // ALUNOS ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
 .corpo6 {
@@ -369,8 +376,6 @@ input {
 
 .corpo5 {
   background-color: #FFE4E1;
-  height: 100vh;
-  width: 100vw;
   display: flex;
   flex-direction: column;
 }
@@ -436,3 +441,40 @@ input {
   color: white;
   flex-direction: row;
 }
+
+.AreaAlunos {
+  background-color: #FFE4E1;
+  height: 77%;
+}
+
+
+
+.listaAlunos{
+  width: 100vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  /* column-gap: 100px; */
+  align-items: center;
+  
+}
+
+
+.aluno img {
+  border-radius: 40%; /* Para deixar as imagens redondas */
+}
+
+.alunoFoto {
+  width: 20%; /* Garante que a imagem ocupe toda a largura do elemento */
+  height: 200px; /* Ajuste a altura conforme necessário */
+  border-radius: 50%; /* Para deixar as imagens redondas */
+  background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço */
+  background-position: center; /* Centraliza a imagem */
+}
+
+
+.alunoNome{
+  color: black;
+  text-decoration: none;
+}
+

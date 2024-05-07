@@ -11,8 +11,8 @@ function Login() {
 
         <header className='NavBar'>
           <h3>Carômetro</h3>
-          <a className='aNavBar' href="/">Home</a>
-          <a className='aNavBar' href="Login">Login</a>
+          <a className='aNavBar' href="Home">Home</a>
+          <a className='aNavBar' href="/">Login</a>
           <a className='aNavBar' href="Cadastro">Cadastro</a>
           <a className='aNavBar' href="Alunos">Alunos</a>
           <a className='aNavBar' href="Turmas">Turmas</a>
@@ -53,7 +53,7 @@ function Login() {
             <a href="">Esqueceu a senha ?</a>
           </div>
           
-          <button id="botaoLogin" className="botao" onClick={()=>window.location.href ='/'}>Entrar</button>
+          <button id="botaoLogin" className="botao" onClick={()=>window.location.href ='/Home'}>Entrar</button>
 
           <div className="criadorDeConta">
               <p>Quer cadastrar um Aluno?</p>

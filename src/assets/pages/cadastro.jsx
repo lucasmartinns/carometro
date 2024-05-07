@@ -8,8 +8,8 @@ function Cadastro() {
 
         <header className='NavBar'>
           <h3>Carômetro</h3>
-          <a className='aNavBar' href="/">Home</a>
-          <a className='aNavBar' href="Login">Login</a>
+          <a className='aNavBar' href="Home">Home</a>
+          <a className='aNavBar' href="/">Login</a>
           <a className='aNavBar' href="Cadastro">Cadastro</a>
           <a className='aNavBar' href="Alunos">Alunos</a>
           <a className='aNavBar' href="Turmas">Turmas</a>
@@ -55,7 +55,7 @@ function Cadastro() {
         </div>
 
         <div className="botaoCadastro">
-          <button id="botaoCadastro" className="botao">Cadastrar</button>
+          <button id="botaoCadastro" className="botao" onClick={()=>window.location.href ='/'}>Cadastrar</button>
         </div>
 
       </div>

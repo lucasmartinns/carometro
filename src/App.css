@@ -72,6 +72,7 @@ input {
   color: white;
   font-size: xx-large;
   margin-top: 3%;
+  border: none
 }
 
 .titulosInput {

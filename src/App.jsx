@@ -4,8 +4,8 @@ import Cadastro from './assets/pages/Cadastro'
 import Home from './assets/pages/Home'
 import Alunos from './assets/pages/Alunos'
 import Turmas from './assets/pages/Turmas'
-import Perfil from './assets/pages/Perfil'
 import IDEV2 from './assets/pages/IDEV2'
+import Aluno from './assets/pages/Aluno'
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
@@ -19,8 +19,8 @@ function App() {
             <Route path="/" element={<Login />} /> 
             <Route path="/Alunos" element={<Alunos />} />
             <Route path="/Turmas" element={<Turmas />} /> 
-            <Route path="/Perfil" element={<Perfil />} />
             <Route path="/IDEV2" element={<IDEV2 />} />
+            <Route path="/Detalhe-aluno" element={<Aluno />} />
             {/* (localStorage.getItem('token')) */}
           </Routes>
         </BrowserRouter>

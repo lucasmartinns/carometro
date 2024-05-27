@@ -17,6 +17,7 @@
     height: 13vw;
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
+    box-shadow: 5px 5px 5px #BFABA9;
 }
 
 .card-vermelho{
@@ -28,6 +29,7 @@
     height: 18vw;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    box-shadow: 5px 5px 5px #BFABA9;
     background-color: #FF3E3E;
 }
 

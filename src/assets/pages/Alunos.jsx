@@ -17,7 +17,6 @@ function Alunos() {
                 <a className='aNavBar' href="Cadastro">Cadastro</a>
                 <a className='aNavBar' href="Alunos">Alunos</a>
                 <a className='aNavBar' href="Turmas">Turmas</a>
-                <a className='aNavBar' href="Perfil">Perfil</a>
             </header>
 
             <div className="TextoAlunos">

@@ -421,7 +421,6 @@ input {
 
 .corpo8 {
   background-color: #FFE4E1;
-  height: 100vh;
   width: 100vw;
   display: flex;
   flex-direction: column;
@@ -433,7 +432,7 @@ input {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 23%;
+  height: 20vh;
 }
 
 .nomeIDEV2 {
@@ -448,26 +447,23 @@ input {
   height: 77%;
 }
 
-
-
 .listaAlunos{
   width: 100vw;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  /* column-gap: 100px; */
+  column-gap: 100px;
   align-items: center;
   
 }
-
 
 .aluno img {
   border-radius: 40%; /* Para deixar as imagens redondas */
 }
 
 .alunoFoto {
-  width: 20%; /* Garante que a imagem ocupe toda a largura do elemento */
-  height: 200px; /* Ajuste a altura conforme necessário */
+  width: 200px; /* Garante que a imagem ocupe toda a largura do elemento */
+  height: 200px;   /* Ajuste a altura conforme necessário */
   border-radius: 50%; /* Para deixar as imagens redondas */
   background-size: cover; /* Redimensiona a imagem para cobrir todo o espaço */
   background-position: center; /* Centraliza a imagem */
@@ -479,3 +475,67 @@ input {
   text-decoration: none;
 }
 
+/* // ALUNO //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
+
+.corpo9 {
+  /*usado como o body*/
+  background-color: #FFE4E1;
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.TextoAluno {
+  background-color: #AD3333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 20vh;
+  width: 100vw;
+}
+
+.AreaAluno {
+  justify-content: space-around;
+}
+
+.AreaCimaAluno {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-around;
+}
+
+.InformacoesAluno {
+  background-color: red;
+  display: flex;
+  width: 40vw;
+  height: 50vh;
+}
+
+.AreaImagemAluno {
+  background-color: white;
+  display: flex;
+  width: 50vw;
+  height: 50vh;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 5px 5px 5px #BFABA9;
+}
+
+.OcorrenciasAluno {
+  background-color: #AD3333;
+  display: flex;
+  width: 95vw;
+  height: 20vh;
+  border-radius: 25px;
+  border: none;
+  box-shadow: 5px 5px 5px #BFABA9;
+}
+
+.AreaOcorrenciasAluno {
+  display: flex;
+  justify-content: center;
+}

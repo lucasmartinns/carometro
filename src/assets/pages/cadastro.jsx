@@ -6,16 +6,6 @@ function Cadastro() {
   return (
     <div className="corpo2">
 
-        <header className='NavBar'>
-          <h3>Carômetro</h3>
-          <a className='aNavBar' href="Home">Home</a>
-          <a className='aNavBar' href="/">Login</a>
-          <a className='aNavBar' href="Cadastro">Cadastro</a>
-          <a className='aNavBar' href="Alunos">Alunos</a>
-          <a className='aNavBar' href="Turmas">Turmas</a>
-          <a className='aNavBar' href="Perfil">Perfil</a>
-        </header>
-
       <div className="AreaDeCadastro">
         
         <div className="TituloCadastro">

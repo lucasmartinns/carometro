@@ -1,8 +1,10 @@
 import React from "react";
 import "../../App.jsx";
 import "../../App.css";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
-import Aluno from "../../../components/img/ALEXANDRE.png"
+
+import Aluno from "../../../components/img/GIOVANI.png"
 
 function IDEV2() {
 
@@ -14,8 +16,8 @@ function IDEV2() {
           foto: Aluno // Define a foto do aluno
         },
         name: {
-          nome: `Giovani ME`, 
-          sobrenome: 'Beija'
+          nome: `Giovani`, 
+          sobrenome: 'Canella de Souza'
         }
       }));
 
@@ -30,7 +32,6 @@ function IDEV2() {
                 <a className='aNavBar' href="Cadastro">Cadastro</a>
                 <a className='aNavBar' href="Alunos">Alunos</a>
                 <a className='aNavBar' href="Turmas">Turmas</a>
-                <a className='aNavBar' href="Perfil">Perfil</a>
             </header>
 
             <div className="TextoIDEV2">
@@ -48,9 +49,7 @@ function IDEV2() {
           {alunos.map((aluno) => (
             <div key={aluno.login.id} className="aluno"> {/* Componente para cada aluno */}
               {/* Define um link para a página individual do aluno */}
-                {/* Renderiza a foto do aluno */}
                 <img src={aluno.foto.foto} alt="Aluno" className="alunoFoto"/>
-                {/* Renderiza o nome completo do aluno */}
                 <p className='alunoNome'>{`${aluno.name.nome} ${aluno.name.sobrenome}`}</p>
             </div>
           ))}

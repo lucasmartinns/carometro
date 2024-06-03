@@ -1,7 +1,7 @@
 import React from "react";
 import "../../App.jsx";
 import "../../App.css";
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 
 import Aluno from "../../../components/img/GIOVANI.png"
@@ -47,11 +47,12 @@ function IDEV2() {
             <div className="listaAlunos"> {/* Container para a lista de alunos */}
           {/* Mapeia os dados de cada aluno e renderiza um componente para cada um */}
           {alunos.map((aluno) => (
-            <div key={aluno.login.id} className="aluno"> {/* Componente para cada aluno */}
-              {/* Define um link para a página individual do aluno */}
-                <img src={aluno.foto.foto} alt="Aluno" className="alunoFoto"/>
-                <p className='alunoNome'>{`${aluno.name.nome} ${aluno.name.sobrenome}`}</p>
-            </div>
+          <Link key={aluno.login.id} to="/Detalhe-aluno" className="linkDetalhe">
+              <div className="aluno"> {/* Componente para cada aluno */}
+                  <img src={aluno.foto.foto} alt="Aluno" className="alunoFoto"/>
+                  <p className='alunoNome'>{`${aluno.name.nome} ${aluno.name.sobrenome}`}</p>
+              </div>
+          </Link>
           ))}
         </div>
 

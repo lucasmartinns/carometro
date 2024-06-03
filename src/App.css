@@ -473,6 +473,7 @@ input {
 .alunoNome{
   color: black;
   text-decoration: none;
+  
 }
 
 /* // ALUNO //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
@@ -506,23 +507,60 @@ input {
   flex-direction: row;
   justify-content: center;
   justify-content: space-around;
+  margin: 20px;
 }
 
 .InformacoesAluno {
-  background-color: red;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 40vw;
   height: 50vh;
+  flex-direction: column;
 }
 
 .AreaImagemAluno {
   background-color: white;
   display: flex;
+  justify-content: center;
+  align-items: center;
   width: 50vw;
   height: 50vh;
   border-radius: 25px;
   border: none;
   box-shadow: 5px 5px 5px #BFABA9;
+}
+
+.maisInfos{
+  display: flex;
+  justify-content: start;
+  align-items: start;
+  flex-direction: column;
+}
+
+.botoesInfos {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 20vw;
+  height: 10vh;
+}
+
+#botaoVoltar, #botaoEnviar {
+    /* estiliza o botao de login */
+    height: 55%;
+    width: 40%;
+    border-radius: 20px;
+    background-color: #ff3e3e;
+    color: white;
+    font-size: x-large;
+    border: none;
+    margin-top: 8%;
+    margin-bottom: 1%;
+}
+
+li {
+  font-size: larger;
 }
 
 .OcorrenciasAluno {
@@ -533,9 +571,30 @@ input {
   border-radius: 25px;
   border: none;
   box-shadow: 5px 5px 5px #BFABA9;
+  margin: 1%;
 }
 
 .AreaOcorrenciasAluno {
   display: flex;
   justify-content: center;
+}
+
+h2 {
+  /*estiliza os subtitulos*/
+  font-weight: bolder;
+  padding: 1% ;
+  color: white;
+}
+
+#botaoOcorrencia {
+  /* estiliza o botao de login */
+  height: 35%;
+  width: 18%;
+  border-radius: 20px;
+  background-color: #ff3e3e;
+  color: white;
+  font-size: xx-large;
+  border: none;
+  margin-top: 6%;
+  margin-left: 68%;
 }
